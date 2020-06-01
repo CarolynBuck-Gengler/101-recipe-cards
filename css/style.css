@@ -45,6 +45,9 @@ h3 {
     text-transform: uppercase;
     font-family: 'Montserrat',sans-serif;
     font-size: 12px;
+    padding: 2px 0 4px 5px;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
 }
 
 .card {
