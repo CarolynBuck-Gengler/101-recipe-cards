@@ -14,7 +14,7 @@ header {
  
 h1 {
     color: #F16059;
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
     font-family: 'Montserrat',sans-serif;
     font-size: 48px;
@@ -73,4 +73,33 @@ h3 {
 }
 #salad .image {
     background-image: url(../img/watermelon-salad.jpg);
+}
+.time {
+    margin-bottom: 5px;
+    border: 1px solid #3B3B3B;
+    overflow: auto;
+}
+.prep, .cook, .total {
+    text-transform: uppercase;
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%; 
+    box-sizing: border-box;
+    margin: 0;
+}
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.time-details {
+    display: inline-block;
+}
+.time strong {
+    font-family: 'Montserrat',sans-serif;  
 }
