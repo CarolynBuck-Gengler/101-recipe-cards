@@ -123,3 +123,12 @@ h3 {
     float: left;
     width: 240px;
 }
+ul {
+    padding-left: 15px;
+    line-height: 24px;
+    list-style-type: square;
+}
+ol {
+    padding-left: 15px;
+    line-height: 24px;
+}
